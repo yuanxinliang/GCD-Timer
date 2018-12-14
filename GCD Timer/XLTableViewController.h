@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XLTableViewController.h
 //  GCD Timer
 //
 //  Created by XL Yuen on 2018/12/14.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface XLTableViewController : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
