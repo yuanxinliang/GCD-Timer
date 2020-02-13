@@ -10,4 +10,8 @@
 
 @implementation Fish
 
+- (NSString *)description {
+    return @"description";
+}
+
 @end
